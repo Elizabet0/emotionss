@@ -7,6 +7,11 @@
 Бывало ли у Вас такое, что при общении с человеком не можете понять, что он сейчас испытывает? (Ну, poor empathy skills, все такое..) А ещё и фокусировать свой взгляд надо на нем, чтобы казаться заинтересованным.. в общем, тяжело.
 Моя моделька решает Ваши проблемы!
 
+## Быстрый старт
+1. git clone https://github.com/Elizabet0/emotionss.git
+2. pip install -r requirements.txt
+3. Откройте notebook/Detector.ipynb и вставьте Ваше изображение для тестирования! :)
+
 ## Структура проекта
 ```
 emotions/
@@ -51,7 +56,8 @@ PS. BN - BatchNorm2d
 ## Catboost - 42.4%
 
 iterations=300, learning_rate=0.1, depth=5, random_seed=42, eval_metric='Accuracy', early_stopping_rounds=50, use_best_model=True
-Оценка на валидационной выборке (train/test = 85/15)
+
+Оценка проводилась на валидационной выборке (train/val = 85/15)
 
 ## Детектор
 
@@ -59,7 +65,7 @@ iterations=300, learning_rate=0.1, depth=5, random_seed=42, eval_metric='Accurac
 
 ## Окончательный пример работы детектора + классификатора
 
-![alt text](image.png)
+![Снимок экрана 2026-01-22 020205](https://github.com/user-attachments/assets/50a3e054-402f-471a-94b6-a04ffaf00546)
 
 ## Результатыss
 
