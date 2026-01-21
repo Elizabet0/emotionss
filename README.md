@@ -10,6 +10,7 @@ emotions/
 │   ├── CNN_training.ipynb           # Обучение CNN
 │   ├── CNN_testing.ipynb            # Тестирование CNN
 │   └── CatBoost.ipynb               # Обучение и тест CatBoost
+│   └── exeperimenting.ipynb         # Эксперименты с локальными фото
 ├── best_models/                     # Сохранённые модели
 │   ├── model_checkpoint_60.62.pth
 │   └── catboost_model.cbm
