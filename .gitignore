@@ -1,0 +1,13 @@
+data/
+
+models/
+
+__pycache__/
+*.py[cod]
+
+catboost_info/
+*.tsv
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
